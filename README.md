@@ -21,6 +21,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--fdic_data/<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--src/<br />
 
+**Code Files**
+1.  htm_replication_main.py:  This is the entry point for running the replication code.
+2.  Data_Mngr.py:  This code handles the gathering and processing of variable needed for analysis.  The Data_Mngr retrieves call report variables from downloaded ffiec call report data files and processes them acording to information in the configuration file,  cr_variable_list_hfs_afs_comp.xlsx.
+3.  Model_Mngr.py:  This file constructs model variables based on configurable paramneters as well as hardcoded entries specific to the replication documentation.  This class can be extended to accomdate variant operations if desired.
+4.  cr_variable_list_hfs_afs_comp.xlsx:  This is a configuration file that defines what raw variables to gather from call report data files (call_vars), combines RCFD and RCON variables to create concept variables (e.g. RCFD2170, RCON2170 equate to total assets) (composite_vars), variables based on equations of composite variables for modeling (model_vars), and lagged variables that need data to be shifted (shift_vars), and finally model variables that need to be shifted (shf_mdl_vars)
+
 **Observations**
 1.  Able to reproduce figure 1-4
 2.  Methodology the author used for Figure 5 has not been replicated.
