@@ -10,7 +10,7 @@
 
 **Assumptions:**  
   1.  Call report data from cdr.ffiec.gov bulk data have been downloaded and extracted and saved in the data dir.
-  2.  FDIC Bank data have been downloaded and saved in the fdic data dir.
+  2.  FDIC Bank data have been downloaded and saved in the fdic data dir.  (https://banks.data.fdic.gov/bankfind-suite/financialreporting)
   3.  Python 3.10 is utilized.
 
 **Directory Structure**<br />
