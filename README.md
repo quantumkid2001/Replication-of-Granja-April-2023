@@ -25,10 +25,10 @@
 1.  htm_replication_main.py:  This is the entry point for running the replication code.  This file resides in the src directory.
 2.  Data_Mngr.py:  This code handles the gathering and processing of variable needed for analysis.  The Data_Mngr retrieves call report variables from downloaded ffiec call report data files and processes them acording to information in the configuration file,  cr_variable_list_hfs_afs_comp.xlsx.  This file resides in the src directory.
 3.  Model_Mngr.py:  This file constructs model variables based on configurable paramneters as well as hardcoded entries specific to the replication documentation.  This class can be extended to accomdate variant operations if desired.  This file resides in the src directory.
-4.  cr_variable_list_hfs_afs_comp.xlsx:  This is a configuration file that defines what raw variables to gather from call report data files (call_vars), combines RCFD and RCON variables to create concept variables (e.g. RCFD2170, RCON2170 equate to total assets) (composite_vars), variables based on equations of composite variables for modeling (model_vars), and lagged variables that need data to be shifted (shift_vars), and finally model variables that need to be shifted (shf_mdl_vars).  This file resides in the input directory.
+4.  cr_variable_list_hfs_afs_comp.xlsx:  This is a configuration file that defines what raw variables to gather from call report data files (call_vars sheet), combines RCFD and RCON variables to create concept variables (e.g. RCFD2170, RCON2170 equate to total assets) (composite_vars sheet), variables based on equations of composite variables for modeling (model_vars), and lagged variables that need data to be shifted (shift_vars sheet), and finally model variables that need to be shifted (shf_mdl_vars sheet).  This file resides in the input directory.
 
 **Observations**
 1.  Able to reproduce figure 1-4
 2.  Methodology the author used for Figure 5 has not been replicated.
-3.  Regression observations are similar in count.  Betas are some orde rof magnitude and direction but not exact.
+3.  Regression observations are similar in count.  Betas are same order of magnitude and direction but not exact.
 
