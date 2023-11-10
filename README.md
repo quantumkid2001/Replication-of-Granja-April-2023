@@ -13,7 +13,7 @@
   2.  FDIC Bank data have been downloaded and saved in the fdic data dir.
   3.  Python 3.10 is utilized.
 
-**Directory Structure**
+**Directory Structure**<br />
 |--C:/<br />
 &nbsp;&nbsp;&nbsp;&nbsp;|--work/<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--frbsf_code_sample/<br />
