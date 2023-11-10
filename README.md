@@ -15,11 +15,11 @@
 
 **Directory Structure**
 |--C:/<br />
-    |--work/<br />
-       |--frbsf_code_sample/<br />
-          |--data/<br />
-          |--fdic_data/<br />
-          |--src/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;|--work/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--frbsf_code_sample/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--data/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--fdic_data/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--src/<br />
 
 **Observations**
 1.  Able to reproduce figure 1-4
